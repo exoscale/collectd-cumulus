@@ -1,0 +1,2 @@
+cumulus.py usr/share/collectd/python
+types.cumulus.db usr/share/collectd

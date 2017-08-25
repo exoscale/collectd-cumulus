@@ -1,0 +1,4 @@
+cumulus_fan    state:GAUGE:0:1 current:GAUGE:U:U min:GAUGE:U:U max:GAUGE:U:U variance:GAUGE:0:100
+cumulus_psu    state:GAUGE:0:1
+cumulus_temp   state:GAUGE:0:1 current:GAUGE:U:U min:GAUGE:U:U max:GAUGE:U:U crit:GAUGE:U:U
+cumulus_led    state:GAUGE:0:1

@@ -1,0 +1,5 @@
+collectd-cumulus (0-0) UNRELEASED; urgency=medium
+
+  * Fake entry.
+
+ -- Vincent Bernat <bernat@debian.org>  Fri, 25 Aug 2017 10:45:13 +0200

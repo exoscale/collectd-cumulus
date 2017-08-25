@@ -1,0 +1,9 @@
+Source: collectd-cumulus
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends: debhelper (>= 9),
+               lsb-release
+
+Package: collectd-cumulus
+Architecture: all
+Depends: collectd-core
+Description: plugin to collect system metrics from Cumulus switches
