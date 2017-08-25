@@ -12,7 +12,7 @@ import collectd
 
 class Cumulus(object):
 
-    def __init__(self):
+    def refresh(self):
         self.ledmgrd = json.loads(
             subprocess.check_output(["/usr/sbin/ledmgrd", "-j"]))
         self.smonctl = json.loads(
@@ -101,6 +101,8 @@ class CumulusCollectd(object):
 
     def read(self):
         """Collectd read callback."""
+        self.cumulus.refresh()
+
         # Fans
         fans = self.cumulus.get_fans()
         for fan in fans:
